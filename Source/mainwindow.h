@@ -6,7 +6,6 @@
 #include <QDebug>
 #include <QTimer>
 #include <QSystemTrayIcon>
-#include <qt_windows.h>
 #include <QMenu>
 
 #include "uploader.h"

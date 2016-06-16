@@ -1,10 +1,7 @@
 #include "mainwindow.h"
-#include "qt_windows.h"
 #include "ui_mainwindow.h"
 #include <QClipboard>
 
-HHOOK MouseHook;
-POINT mousePoint;
 bool MouseClicked_Cancel;
 bool MouseClicked;
 bool savePicDataToClip;

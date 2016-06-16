@@ -11,8 +11,6 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 TARGET = teknik-shortener
 TEMPLATE = app
 
-LIBS += -luser32 -lshell32 -lgdi32
-
 SOURCES += main.cpp\
         mainwindow.cpp \
     uploader.cpp
